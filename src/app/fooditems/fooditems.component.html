@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fooditems.component.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <br><br>
+    <h2>this is our menu : </h2>
+    <table>
+
+    </table>
+    <table border="1px" class="table table-bordered table-striped table-hover">
+        <tr>
+            <td class='col'>Article</td>
+            <td class='col'>Price (Dt)</td>
+            <td class='col'>Ingredients</td>
+        </tr>
+
+        <tr *ngFor="let item of listoffoods">
+            <td class='cols'>
+                {{item.name}}
+            </td>
+            <td class='cols'>
+                {{item.price}}
+            </td>
+            <td class='cols'>
+
+                {{item.ingredients}}
+            </td>
+        </tr>
+
+    </table>
+    <h2 class="enjoy">Enjoy your food :)</h2>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="home.component.css">
+
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div>
+        <img [src]="myimg" alt id=interface class=interface height="500" width="1500">
+    </div>
+    <br> <br>
+
+    <ng-image-slider [images]="imageObject" [infinite]="false" [autoSlide]="1" [imageSize]="{width: '25%', height: 200}" slideImage="1"> #nav></ng-image-slider>
+
+
+</body>

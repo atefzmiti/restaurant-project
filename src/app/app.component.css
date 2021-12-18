@@ -1,0 +1,20 @@
+a {
+    font-size: 190%;
+    color: rgb(105, 216, 224);
+}
+
+#mypage li {
+    display: inline;
+    list-style: none;
+}
+
+.container .text {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+}
+
+#interface {
+    position: relative;
+    min-width: 100%;
+}
