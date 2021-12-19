@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+a project that contains 3 components:
+app component in which i used redirecting routes
+home component in which i added slideshow images using NgImageSliderModule
+menu component , i added an object with some datas and i got those data inside a table 
+i used bootstrap
